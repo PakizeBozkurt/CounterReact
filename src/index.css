@@ -9,6 +9,8 @@ body {
 
 h1 {
   background-color: yellow;
+  height: 20%;
+  width: 20%;
 }
 
 code {
