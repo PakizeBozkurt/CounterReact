@@ -13,7 +13,6 @@ const[count1,setCount1] = useState(0);
 
  const customStyle = {
      color: "black",
-     backgroundcolor: "yellow",
      fontSize: "20px",
      border: "1px solid black"
  }
