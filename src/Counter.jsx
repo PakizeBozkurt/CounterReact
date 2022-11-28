@@ -10,9 +10,16 @@ const[count1,setCount1] = useState(0);
  const handleCount2=()=>{
     setCount2(count2+1)
  }
+
+ const customStyle = {
+     color: "black",
+     backgroundcolor: "yellow",
+     fontSize: "20px",
+     border: "1px solid black"
+ }
   return (
     <div>
-   <h1>Total: {count1+count2}</h1>
+   <h1 style= {customStyle}>Total: {count1+count2}</h1>
         <Card style={{ width: '18rem' }}>
             <Card.Body>
                 <Card.Title>Count1: {count1}</Card.Title>
