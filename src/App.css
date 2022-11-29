@@ -11,10 +11,22 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .Card-h1 {
+  background-color: yellow;
+  height: 20%;
+  width: 20%;
+  justify-items: center;
+}
+
+.Card-btn {
+  
+  height: 30%;
+  width: 30%;
+}
 }
 
 .App-header {
-  background-color: #253d6d;
+  background-color: #f8e911;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
